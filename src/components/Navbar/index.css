@@ -16,6 +16,8 @@
   justify-content: space-between;
   align-items: center;
   width: 150px;
+  list-style-type: none;
+  padding: 0px;
 }
 .nav_heading {
   font-size: 21px;
