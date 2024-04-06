@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-bottom-style: solid;
+  border-color: #dcdcdc;
+}
+.image1 {
+  width: 40px;
+}
+.nav_linkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.nav_heading {
+  font-size: 21px;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.btnEl {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+.Nav_Darktheme {
+  background-color: #334155;
+  color: #ffff;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_container {
+    padding: 25px;
+  }
+  .nav_heading {
+    font-size: 26px;
+  }
+  .image1 {
+    width: 60px;
+  }
+  .nav_linkContainer {
+    width: 200px;
+  }
+}

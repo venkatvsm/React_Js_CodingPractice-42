@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.notFound_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.notFound_cardcontainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.notFound_image {
+  width: 250px;
+}
+.notFound_heading {
+  font-weight: 500;
+}
+.notFound_para {
+  font-weight: 500;
+  font-size: 12px;
+}
+.notFoundDarkTheme {
+  background-color: #000000;
+  color: #ffff;
+}

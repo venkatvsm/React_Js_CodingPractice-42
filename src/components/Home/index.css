@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.homeContainer {
+  height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeContainer_cardContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home_Iamge {
+  width: 60%;
+}
+.home_heading {
+  font-size: 44px;
+}
+.Darktheme {
+  background-color: #000000;
+  color: #ffff;
+}

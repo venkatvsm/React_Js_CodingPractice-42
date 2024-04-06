@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.aboutContainer {
+  height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutContainer_cardContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_Iamge {
+  width: 60%;
+}
+.about_heading {
+  font-size: 44px;
+}
+.about_Darktheme {
+  background-color: #000000;
+  color: #ffff;
+}
